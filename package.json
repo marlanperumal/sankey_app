@@ -1,0 +1,23 @@
+{
+  "name": "interactive_sankey",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "papaparse": "^4.4.0",
+    "plotly.js": "^1.37.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-plotly.js": "^2.2.0",
+    "react-scripts": "1.1.4",
+    "source-map-explorer": "^1.5.0"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "."
+}
